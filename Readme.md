@@ -16,18 +16,8 @@
 
 # SSR的一键安装命令：
 ```
-wget -N --no-check-certificate https://raw.githubusercontent.com/91yun/shadowsocks_install/master/ssr-install.sh && bash ssr-install.sh
+wget -N --no-check-certificate https://raw.githubusercontent.com/leonguyen52/shadowsocks_install/master/ssr-install.sh && bash ssr-install.sh
 ```
-安装完后会直接提示新增用户：
-1. 输入密码，默认91yun.org：
-![2oUR.png](https://www.91yuntu.org/images/2017/06/10/2oUR.png)
-2. 输入端口：
-![2sMt.png](https://www.91yuntu.org/images/2017/06/10/2sMt.png)
-3. 按任意键开始安装：
-![2Ziu.png](https://www.91yuntu.org/images/2017/06/10/2Ziu.png)
-4. 最后复制ssr链接就可以方便的导入ssr客户端了：
-![2lQk.png](https://www.91yuntu.org/images/2017/06/10/2lQk.png)
-![2zs2.png](https://www.91yuntu.org/images/2017/06/10/2zs2.png)
 
 &nbsp;
 
@@ -42,7 +32,7 @@ wget -N --no-check-certificate https://raw.githubusercontent.com/91yun/shadowsoc
 - 更新SSR：`ssr update`
 
 # 如果你想自己修改用户和的加密，混淆和协议的话：
-修改`vi /home/ssr/mudb.json`文件
+修改`nano /home/ssr/mudb.json`文件
 ```
 [
 {
